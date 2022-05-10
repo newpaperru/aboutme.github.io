@@ -221,3 +221,12 @@ img:nth-child(3) {
 		font-size: 12px;
 	}
 }
+
+@media (max-height: 716px) and (min-width: 684px) {
+	a:nth-child(1) {
+		margin: 0 30px 0 0;
+	}
+	a:nth-child(2) {
+		margin: 0 25px 0 0;
+	}
+}
